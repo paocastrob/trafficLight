@@ -27,17 +27,11 @@ export class Home extends React.Component {
 
 				<div className="blackBox">
 					<div
-						className={"redLight " + " " + newRedLightClass}
+						className={"redLight " + newRedLightClass}
 						onClick={() => this.setState({ panda: "red" })}
 					/>
-					<div
-						className={"yellowLight" + " " + newYellowLightClass}
-						onClick={() => this.setState({ panda: "yellow" })}
-					/>
-					<div
-						className={"greenLight" + " " + newGreenLightClass}
-						onClick={() => this.setState({ panda: "green" })}
-					/>
+					<div className="yellowLight" />
+					<div className="greenLight" />
 				</div>
 			</div>
 		);
